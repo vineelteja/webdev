@@ -1,0 +1,11 @@
+img{
+    width: 400px;
+    display: inline;
+    float: left;
+}
+
+ul{
+    width: 600px;
+    display: inline;
+    float: left;
+}

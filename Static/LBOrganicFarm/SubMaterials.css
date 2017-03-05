@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{margin: 0px;
+font-family: 'Quicksand', sans-serif;
+/*letter-spacing: 1px;*/
+}
+nav{
+    height: 160px;
+    width: 100%;
+    position:fixed;
+    top: 0px; 
+    background-color: white;
+}
+#logo{
+    margin: 30px 0px 30px 40px;
+    height: 100px;
+    width: 120px;
+    background-color: orange;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#navul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+    
+}
+
+#navli{
+    display: inline;
+    line-height: 160px;
+    margin-left: 40px;
+   
+}
+
+#nava{
+    text-decoration: none;
+    font-size: 18px;  
+     color: #677c0e;
+}
+
+.navactive{
+    color: #b9d400;
+    border-bottom: 3px solid #b9d400;
+}
+
+#fix{width: 100%;height: 160px;}
+
+section div h1{ padding: 44px 0px 0px 200px; margin: 0px; font-size: 36px}
+
+section #secdiv{
+    width: 100%;
+    height: 380px;
+    margin-bottom: 600px;
+    background: url('img/seed_fp_sub_01.png');
+/*    background-attachment: fixed;*/
+    background-size: contain;
+}
+
+#secdiv h1{
+    color: white;
+}
+
+#secdiv2{
+    width: 1120px;
+    height: 780px;
+    margin-top: 44px;
+    margin-left: 160px;
+    background-color: white;
+}
+
+#div2h2{
+    padding: 40px 0px 0px 40px;
+    margin: 0px;
+    color: #677c0e;
+    font-size: 18px;
+    
+}
+
+#div2p{
+    padding: 20px 40px 0 40px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+#div2img{
+    width:360px;
+    float:left;
+    margin: 20px 0px 0px 40px;
+}
+
+#div2ul{
+    float:left;
+    width: 680px;
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px; 
+    margin-left: 20px;
+    color: #4a4a4a;
+}
+
+#div2ul li{
+    text-indent: -0.5em;
+/*
+    // Changes
+    text-indent: -1.5em;
+*/
+}
+
+#div2ul li::before{
+    content: "•"; 
+    color: #677c0e;
+    display: inline-block; 
+    width: 1.5em;
+    margin-left: -1em;
+/*    //changes to delete*/
+/*
+    vertical-align: top;
+    font-size: 40px;
+    line-height: 10px;
+*/
+    
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: #677c0e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 160px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  vertical-align:middle;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+    font-size: 30px;
+    vertical-align: top;
+    line-height: 19px;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+footer{
+    font-size: 12px;
+}
+
+footer ul{
+    list-style:  none;
+    padding: 0px;
+    margin: 5px 30px 0px 15px;
+    
+}
+footer li{
+    display: inline;
+    padding-left: 10px;
+}
+
+#fodiv{
+    width: 60%;    
+    float: left;
+}
+#fop{
+    font-size: 12px;
+    margin: 5px 0px 10px 25px;
+}
+
+#fodiv2{
+    float: right;
+}
+
+.contact{
+    width: 30px;
+    height: 30px;
+}
