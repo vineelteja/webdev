@@ -8,7 +8,8 @@ letter-spacing: 1px;
 #divseed{
     width: 100%;
     height: 700px;
-    background: url('img/landing/seed_f_p_main_01.png');
+    background: url('../img/landing/seed_f_p_main_01.png');
+    background-size: cover;
     position: relative;
     clear: both;
 }
@@ -119,6 +120,7 @@ letter-spacing: 1px;
     padding: 10px;
     cursor: pointer;
     color: #FFFFFF;
+    outline: none;
 }
 
 #butt{
@@ -161,7 +163,7 @@ letter-spacing: 1px;
     height: 10px;
     bottom: 0px;
     left: 0;
-    background: url("img/strip1.png");
+    background: url("../img/strip1.png");
     background-repeat: repeat;
     Clear:both;
 }
@@ -169,7 +171,8 @@ letter-spacing: 1px;
 #soil{
     width: 100%;
     height: 700px;
-    background: url('img/landing/soil_f_p_main_01.png');
+    background: url('../img/landing/soil_f_p_main_01.png');
+    background-size: cover;
     position: relative;
     clear:both;
 }
@@ -187,7 +190,8 @@ letter-spacing: 1px;
 #harvest{
     width: 100%;
     height: 700px;
-    background: url('img/landing/mid_h_c_main_01.png');
+    background: url('../img/landing/mid_h_c_main_01.png');
+    background-size: cover;
     position: relative;
     clear: both;
 }
@@ -195,7 +199,8 @@ letter-spacing: 1px;
 #cowcrop{
     width: 100%;
     height: 700px;
-    background: url('img/landing/cow_crop_01.png');
+    background: url('../img/landing/cow_crop_01.png');
+    background-size: cover;
     position: relative;
     clear: both;    
 }
@@ -220,7 +225,8 @@ letter-spacing: 1px;
 #divrice{
     width: 100%;
     height: 700px;
-    background: url('img/landing/rice_b_main_01.png');
+    background: url('../img/landing/rice_b_main_01.png');
+    background-size: cover;
     position: relative;
     clear: both;
 }
